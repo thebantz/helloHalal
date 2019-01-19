@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  margin:0;
+  padding: 0;
+  box-sizing:inherit;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+  background-color: #473E33;
+  height: 80px;
+  width:100%;
+  padding-top: 31px;
+  padding-right: 112px;
+}
+
+.nav-items{
+  list-style: none;
+  display: inline-block;
+  color: white;
+  padding-right: 37px;
+}
+
+.navLinks:hover{
+  color:tomato;
+}
+
+.navList{
+  text-align: right;
+}
+
+.navLinks{
+  color: white;
+}
+
+#header{
+  background-image: url("img/hero.jpg");
+  height:533px;
+  width: 100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.header{
+position: relative;
+}
+
+.heroText{
+  color:white;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+  position: absolute;
+  width: 20%;
+  height:178px;
+  left: 70%;
+  top: 238px;
+}
+
+.waitListBtn{
+  position: absolute;
+  width: 16%;
+  height: 70px;
+  left: 70%;
+  top: 400px;
+
+  background: #B22B00;
+  border-radius: 10px;
+  border:none;
+}
+
+.waitListText{
+  color: white;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  text-align: center;
+}
+
+.about{
+  position: absolute;
+  width: 1196px;
+  height: 379px;
+  left: 122px;
+  top: 700px;
+  margin-bottom: 60px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  text-align: justify;
+}
